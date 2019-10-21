@@ -209,7 +209,6 @@ header {
 /* inizo #fourth*/
 #fourth {
     margin-top: 100px;
-    height: 500px;
 }
 #fourth .one.column {
     background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
@@ -258,7 +257,7 @@ header {
 }
 .secon-fourth .half.column {
     width: 49%;
-    margin: 40px 0;
+    margin: 40px 0 25px 0;
     text-align: center;
     padding: 50px 0 350px 0;
     color: white;
@@ -285,3 +284,36 @@ header {
     background-size: cover;
 }
 /* fine #fourth */
+
+/* styling instagram */
+#instagram {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg);
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px 0;
+    height: 420px;
+    position: relative;
+}
+#helbiz-family {
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#helbiz-family h1 {
+    font-size: 30px;
+    padding-top: 65px;
+    color: rgb(33, 37, 41);
+}
+#helbiz-family a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    margin: 0 12px;
+}
+/* end styling instragram */
