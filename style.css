@@ -25,7 +25,6 @@
     float: left;
     padding: 0px 15px;
     /* border: 1px solid black; */
-    height: 500px;
 }
 
 .half.column  {
@@ -170,3 +169,40 @@ header {
     margin-top: 30px;
 }
 /*** fine #second ***/
+
+/* inizio #third */
+#third {
+    text-align: center;
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+
+}
+#third h1 {
+    float: left;
+    width: 30%;
+    font-size: 34px;
+    text-align: left;
+    position: relative;
+    top: 500px;
+}
+#third .mini-text {
+    float: right;
+    width: 30%;
+    text-align: left;
+    position: relative;
+    top: 510px;
+}
+.mini-text p {
+    margin-top: 10px;
+}
+#third img{
+    width: 390px;
+    position: relative;
+    top: 120px;
+}
+/* fine #third */
+
+/* inizo #fourth*/
