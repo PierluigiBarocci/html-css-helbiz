@@ -8,6 +8,7 @@
 .container {
     width: 1110px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .clearfix::after {
@@ -17,7 +18,7 @@
 }
 
 .main-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -206,3 +207,75 @@ header {
 /* fine #third */
 
 /* inizo #fourth*/
+#fourth {
+    margin-top: 100px;
+    height: 500px;
+}
+#fourth .one.column {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text-fourth {
+    color: white;
+    width: 30%;
+    padding: 140px 0;
+    position: relative;
+    left: 60%;
+    text-align: center;
+}
+.text-fourth h2 {
+    font-size: 46px;
+}
+.text-fourth p {
+    margin: 20px 0;
+    font-size: 22px;
+}
+.text-fourth a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+.text-fourth a:hover {
+    text-decoration: underline;
+}
+
+.second-fourth {
+    margin-top: 50px;
+}
+#prima-colonna {
+    background: linear-gradient(#41566a,#252f38);
+    position: relative;
+}
+#back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+#prima-colonna #app {
+    text-align: center;
+    padding: 50px 0 350px 0;
+    color: white;
+}
+
+#prima-colonna #app h2 {
+    font-size: 46px;
+}
+#prima-colonna #app p {
+    margin: 20px 0;
+    font-size: 22px;
+}
+#prima-colonna #app a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin: 0 10px;
+}
+/* fine #fourth */
