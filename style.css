@@ -241,9 +241,6 @@ header {
     text-decoration: underline;
 }
 
-.second-fourth {
-    margin-top: 50px;
-}
 #prima-colonna {
     background: linear-gradient(#41566a,#252f38);
     position: relative;
@@ -259,23 +256,32 @@ header {
     background-repeat: no-repeat;
     background-size: 70%;
 }
-#prima-colonna #app {
+.secon-fourth .half.column {
+    width: 49%;
+    margin: 40px 0;
     text-align: center;
     padding: 50px 0 350px 0;
     color: white;
 }
 
-#prima-colonna #app h2 {
+.secon-fourth h2 {
     font-size: 46px;
 }
-#prima-colonna #app p {
+.secon-fourth p {
     margin: 20px 0;
     font-size: 22px;
 }
-#prima-colonna #app a {
+.secon-fourth a {
     text-decoration: none;
     font-size: 22px;
     color: white;
     margin: 0 10px;
+}
+#seconda-colonna {
+    margin-left: 27px;
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* fine #fourth */
