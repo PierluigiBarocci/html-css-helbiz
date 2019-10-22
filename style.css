@@ -317,3 +317,64 @@ header {
     margin: 0 12px;
 }
 /* end styling instragram */
+
+/* styling footer */
+footer {
+    background-color: black;
+    height: 715px;
+}
+footer a {
+    text-decoration: none;
+    color: #696969;
+}
+#footer-top li {
+    padding: 8px 0;
+}
+footer ul {
+    list-style: none;
+    float: left;
+    width: 15%;
+    margin-right: 96px;
+}
+footer .list-title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#footer-top {
+    padding: 100px 0 80px 0;
+    border-bottom: 1px solid #696969;
+}
+#footer-top img {
+    float: left;
+    padding-right: 200px;
+    margin-top: 12px;
+}
+#footer-center a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-right: 50px;
+    font-size: 16px;
+}
+#more-right a{
+    margin-left: 90px;
+    font-size: 14px;
+}
+#footer-center {
+    padding: 40px 0;
+    border-bottom: 1px solid #696969;
+}
+
+#footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+#footer-bottom img {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 8px;
+}
