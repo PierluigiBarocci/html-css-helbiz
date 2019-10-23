@@ -174,7 +174,7 @@ header {
 /* inizio #third */
 #third {
     text-align: center;
-    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -211,7 +211,7 @@ header {
     margin-top: 100px;
 }
 #fourth .one.column {
-    background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg');
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
@@ -250,7 +250,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png);
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -278,7 +278,7 @@ header {
 }
 #seconda-colonna {
     margin-left: 27px;
-    background-image: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,7 +287,7 @@ header {
 
 /* styling instagram */
 #instagram {
-    background-image: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg);
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg');
     /* background-position: bottom; */
     background-repeat: no-repeat;
     background-size: cover;
